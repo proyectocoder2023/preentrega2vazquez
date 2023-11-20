@@ -43,30 +43,9 @@ p {
 }
 
 /*Definicion de HEADER*/
-
 .colornav {
     background-color: #D2E0FB;
 }
-
-
-
-.lista-secciones {
-    width: 50%;
-    justify-content: flex-center;
-
-}
-
-.ul-index-header {
-    list-style-type: none;
-    display: flex;
-    border: 3px black solid;
-    justify-content: space-between;
-    margin-top: 70px;
-    margin-right: 15px;
-
-}
-
-
 
 header li {
     font-size: 2.2rem;
@@ -90,9 +69,7 @@ header a {
     color: snow;
     text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
     text-align: justify;
-
     height: auto;
-
 }
 
 .titulo-index {
@@ -105,7 +82,6 @@ header a {
     padding-top: 15px;
     line-height: 1.5;
     margin: 0px 20px;
-
 }
 
 .secciones-principales {
@@ -119,11 +95,11 @@ header a {
     text-align: center;
     margin-bottom: 0;
 }
-
 .fotos-secciones {
     display: flex;
     justify-content: space-around;
     padding-bottom: 15px;
+   
 }
 
 .foto-1 p {
@@ -135,7 +111,6 @@ header a {
     border-width: 2px;
 }
 
-
 .foto-2 p {
     text-align: center
 }
@@ -144,7 +119,6 @@ header a {
     border: 1px black solid;
     border-width: 2px;
 }
-
 
 .foto-3 p {
     text-align: center
@@ -156,14 +130,6 @@ header a {
 
 }
 
-footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-direction: column-reverse;
-    align-items: center;
-    padding-top: 20px;
-}
 
 /*Definiciones Seccion contacto*/
 .principal-contactanos {
@@ -182,6 +148,9 @@ footer {
     text-decoration: underline;
 }
 
+.mapa{
+    width: 50%;
+}
 
 /*Definiciones para el tamano de las imagenes del card bootstrap*/
 .card-img-top {
@@ -200,6 +169,12 @@ footer {
 /*Definiciones en el Footer*/
 
 footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-top: 20px;
     background-color: #D0BFFF;
 }
 
@@ -210,23 +185,23 @@ footer {
 
 /*Definiciones para el html de esencias*/
 
+.esencias {
+    background-color: aliceblue;
+}
+
 .titulo-esencias {
     text-align: center;
     text-decoration: underline;
     padding: 30px;
-
-
 }
 
 .grid-esencias img {
     width: 100%;
     height: 100%;
 }
-
 .grid-esencias p {
     text-align: justify;
     padding: 50px 10px 10px 10px;
-
 }
 
 .grid-esencias {
@@ -269,8 +244,8 @@ footer {
     grid-area: t3;
 }
 
-
 /*Definiciones de Media Q para mobile en aquellos casos que no use bootstrap*/
+/*Para esencias*/
 @media screen and (max-width:500px) {
     .grid-esencias {
         grid-template-areas:
@@ -290,8 +265,48 @@ footer {
     .grid-img-3 {
         display: none;
     }
-
     }
 
-    /*Definiciones de Media Q para mobile para el index*/
-    /*no pude sacar el espaciado que se ve debajo aun*/
+    
+    /*Definiciones para el html de Reiki*/
+
+    .reiki{
+        background-color: aliceblue;
+    }
+    
+    .titulo-reiki {
+        text-align: center;
+        text-decoration: underline;
+        padding: 30px;
+        }
+    .subtitulo1-reiki{
+        text-align: center;
+        text-decoration: underline;
+        padding: 30px;
+         }
+    .subtitulo2-reiki{
+        text-align: center;
+        text-decoration: underline;
+        padding: 30px;
+         }
+
+
+     /*Definiciones para el html de Piedras*/     
+    
+    .piedras{
+        background-color: aliceblue;
+    }
+    
+     .titulo-piedras{
+        text-align: center;
+        text-decoration: underline;
+        padding: 30px;
+     }
+     
+    .tamanio {
+        width: 30%;
+     }
+    
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        filter: invert(108%);
+      }
