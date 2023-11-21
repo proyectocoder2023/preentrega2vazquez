@@ -1,0 +1,18 @@
+/*Definiciones para el html de Piedras*/
+.piedras {
+    background-color: aliceblue;
+    .titulo-piedras {
+        text-align: center;
+        text-decoration: underline;
+        padding: 30px;
+    }
+    div {
+        .tamanio {
+            width: 30%;
+        }
+    }
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        filter: invert(108%);
+    }
+}

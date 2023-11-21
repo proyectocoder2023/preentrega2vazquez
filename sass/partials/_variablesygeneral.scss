@@ -1,0 +1,29 @@
+/*variables*/
+$celeste:#D2E0FB; 
+$verdeclarito:#D7E5CA;
+$violeta:#D0BFFF;
+$clarito:#FFF9F9;  
+
+/* Letra seleccionada de Google Fonts para el proyecto*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Pacifico&display=swap');
+
+/*Nombre de letra para seleccionar font-family: 'Montserrat', sans-serif;
+font-family: 'Pacifico', cursive;*/
+
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  font-family: 'Montserrat';
+  font-size: 62%;
+  h1 {
+      font-size: 4rem;
+  }
+  h2 {
+      font-size: 3rem;
+  }
+  p {
+      font-size: 2.2rem;
+  }
+}

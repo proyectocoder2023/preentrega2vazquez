@@ -1,0 +1,59 @@
+/*Definiciones para el html de esencias*/
+.esencias {
+    background-color: aliceblue;
+}
+
+.titulo-esencias {
+    text-align: center;
+    text-decoration: underline;
+    padding: 30px;
+}
+
+.grid-esencias img {
+    width: 100%;
+    height: 100%;
+}
+.grid-esencias p {
+    text-align: justify;
+    padding: 50px 10px 10px 10px;
+}
+
+.grid-esencias {
+    display: grid;
+    grid-template-areas:
+        "i1 t1 i2"
+        "i1 ti i2"
+        "t2 i3 t3";
+
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 250px 250px 400px;
+
+    justify-content: center;
+    padding-bottom: 10px;
+
+}
+
+/*Definiciones del lugar de cada concepto a ocupar en la pantalla*/
+.grid-img-1 {
+    grid-area: i1;
+}
+
+.grid-p-1 {
+    grid-area: t1;
+}
+
+.grid-img-2 {
+    grid-area: i2;
+}
+
+.grid-p-2 {
+    grid-area: t2;
+}
+
+.grid-img-3 {
+    grid-area: i3;
+}
+
+.grid-p-3 {
+    grid-area: t3;
+}

@@ -1,0 +1,23 @@
+/*Definiciones de Media Q para mobile en aquellos casos que no use bootstrap*/
+/*Para esencias*/
+
+@media screen and (max-width:500px) {
+    .grid-esencias {
+        grid-template-areas:
+            "t1"
+            "i1"
+            "i2"
+            "t3";
+
+        grid-template-columns: 90%;
+        grid-template-rows: auto;
+    }
+
+    .grid-p-2 {
+        display: none;
+    }
+
+    .grid-img-3 {
+        display: none;
+    }
+    }

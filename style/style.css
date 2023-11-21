@@ -17,19 +17,14 @@
 /*Nombre de letra para seleccionar font-family: 'Montserrat', sans-serif;
 font-family: 'Pacifico', cursive;*/
 
-/*cambio de letra para todo el proyecto y ajuste para simplificar el nro Rem = 10px aprox*/
+/*cambio de tipo de letra y tamaño para todo el proyecto html y ajuste el nro Rem = 10px aprox para simplificar*/
+
 html {
     font-family: 'Montserrat';
     font-size: 62%;
+    
 }
 
-/*Definicion del tamaño del logo*/
-header img {
-    width: 120px;
-    margin-left: 15px;
-}
-
-/* Tamaños de letra definidos de manera general*/
 h1 {
     font-size: 4rem;
 }
@@ -43,6 +38,13 @@ p {
 }
 
 /*Definicion de HEADER*/
+
+/*Definicion del tamaño del logo*/
+header img {
+    width: 120px;
+    margin-left: 15px;
+}
+
 .colornav {
     background-color: #D2E0FB;
 }
@@ -56,9 +58,24 @@ header a {
     font-size: 2rem;
 }
 
-/*Definiciones en Main de Index*/
+/*Definiciones en el Footer*/
 
-.main-index {}
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-top: 20px;
+    background-color: #D0BFFF;
+}
+
+.logo-footer {
+    width: 50px;
+}
+
+/*Definiciones en Main de Index*/
+/*main index es el padre y contiene todo*/
 
 .section-index {
 
@@ -95,62 +112,6 @@ header a {
     text-align: center;
     margin-bottom: 0;
 }
-.fotos-secciones {
-    display: flex;
-    justify-content: space-around;
-    padding-bottom: 15px;
-   
-}
-
-.foto-1 p {
-    text-align: center
-}
-
-.foto-1 img {
-    border: 1px black solid;
-    border-width: 2px;
-}
-
-.foto-2 p {
-    text-align: center
-}
-
-.foto-2 img {
-    border: 1px black solid;
-    border-width: 2px;
-}
-
-.foto-3 p {
-    text-align: center
-}
-
-.foto-3 img {
-    border: 1px black solid;
-    border-width: 2px;
-
-}
-
-
-/*Definiciones Seccion contacto*/
-.principal-contactanos {
-    text-align: justify;
-}
-
-.fondo-contacto {
-    background-color: aliceblue;
-}
-
-.titulo-contacto {
-    text-decoration: underline;
-}
-
-.subtitulo-contacto {
-    text-decoration: underline;
-}
-
-.mapa{
-    width: 50%;
-}
 
 /*Definiciones para el tamano de las imagenes del card bootstrap*/
 .card-img-top {
@@ -162,25 +123,8 @@ header a {
     background-color: #D2E0FB;
 }
 
-.borde {
-    border: 1px black solid;
-}
 
-/*Definiciones en el Footer*/
 
-footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-direction: column-reverse;
-    align-items: center;
-    padding-top: 20px;
-    background-color: #D0BFFF;
-}
-
-.logo-footer {
-    width: 50px;
-}
 
 
 /*Definiciones para el html de esencias*/
@@ -290,6 +234,11 @@ footer {
         padding: 30px;
          }
 
+    .videos{
+        width: 80%;
+        padding-left: 50px;
+        padding-bottom: 20px;
+    }
 
      /*Definiciones para el html de Piedras*/     
     
@@ -310,3 +259,24 @@ footer {
     .carousel-control-prev-icon, .carousel-control-next-icon {
         filter: invert(108%);
       }
+
+      /*Definiciones Seccion contacto*/
+.principal-contactanos {
+    text-align: justify;
+}
+
+.fondo-contacto {
+    background-color: aliceblue;
+}
+
+.titulo-contacto {
+    text-decoration: underline;
+}
+
+.subtitulo-contacto {
+    text-decoration: underline;
+}
+
+.mapa{
+    width: 50%;
+}

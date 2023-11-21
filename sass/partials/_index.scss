@@ -1,0 +1,39 @@
+/*Definiciones en Main de Index*/
+.section-index {
+    background-image: url(../imagenes/fondo-estatuilla-buda-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: snow;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+    text-align: justify;
+    height: auto;
+    .titulo-index {
+        text-align: center;
+        text-decoration: underline;
+        padding-top: 25px;
+    }
+    .parrafos-principales {
+        padding-top: 15px;
+        line-height: 1.5;
+        margin: 0px 20px;
+    }
+}
+.secciones-principales {
+    background-color: $celeste;
+    .subtitulo-index {
+        text-decoration: underline;
+        padding: 20px 0px;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 0;
+    }
+}
+/*Definiciones para el tamano de las imagenes del card bootstrap*/
+.card-img-top {
+    width: 300px;
+    height: 200px;
+}
+.card {
+    background-color: $celeste;
+}
